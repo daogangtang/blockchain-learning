@@ -1,5 +1,26 @@
 
 
+180903~180906
+
+parity-bridge code analysis
+
+cli/, deploy/   cmd tools to use parity bridge
+bridge/, the core implementation part of this project
+contracts/, the core main and side smart contracts implementation using solidity
+compiled_contracts, compiled contracts to load
+integration-tests/, test files and configs
+res/, tools/, truffle, helper directories
+
+The most cares:  
+contracts/bridge.sol
+bridge/src/
+
+
+Main problem:
+
+How to make ethereum node A execute smart contract to interact with this bridge relay?
+
+
 
 180831
 1. 
