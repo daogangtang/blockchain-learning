@@ -1,5 +1,13 @@
 
 
+180907
+
+need to notice:
+
+web3 rust implementation
+ethabi rust implementation
+
+
 180903~180906
 
 parity-bridge code analysis
