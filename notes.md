@@ -1,4 +1,13 @@
 
+180909
+
+About token transfer:
+
+In chain A, relay party make From party send to he;
+In chain B, relay party sends equivalent ERC20 token to To party.
+
+Relay party is a middleware entity.
+
 
 180907
 
@@ -6,6 +15,25 @@ need to notice:
 
 web3 rust implementation
 ethabi rust implementation
+
+----
+
+What does deployment mean?
+
+bridge/helper.rs  AsyncCall   remote call function?
+bridge/relay_stream  RelayStream  
+
+self.call(contracts::main::functions::is_main_bridge_contract())
+corresponding contracts/bridge.sol   isMainBridgeContract
+
+/// where a "relay" is the detection of an event on chain A
+/// followed by a transaction on chain B
+
+
+relay server  polles on main and side chains' contract's function returns, so it can act as a channel.
+but how the transaction occures? how the cryptcurrency transferes?
+
+ERC20
 
 
 180903~180906
